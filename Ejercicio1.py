@@ -8,6 +8,9 @@ def juego(string):
     nombrejugador1= "Kevin"
     print(f"El nombre del jugador 1 es {nombrejugador1}")
     print(f"El nombre del jugador 2 es {nombrejugador2}")
-    jugador1= 0
-    jugador2 = 0
+    print("Selecciona la palabra con la que jugar")
+    palabra = str(input())
+    puntosjugador1= 0
+    puntosjugador2 = 0
+    
 
