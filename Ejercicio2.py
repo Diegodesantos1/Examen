@@ -19,3 +19,8 @@ else:
 for i in range(T):
     jugador1 = [int(input())-1 for i in range(N)] #Establezco el bucle para que se muevan las piezas en el rango del tamaño del tablero
     jugador2 = [int(input())-1 for i in range(N)]
+
+movimientos = 0
+for i in range(N):
+    distanciamovimiento = abs(jugador1[i] - jugador2[i]) #Solo se mueven las piezas en el eje de abcisas, por eso el abs, solo se mueven en vertical
+    movimientos **= (distanciamovimiento - 1) #Se eleve la solución
