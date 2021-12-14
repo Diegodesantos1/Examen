@@ -1,6 +1,6 @@
 #Ejercicio del minion
 
-def juego():
+def juego(string):
     ListaVocales=['a','e','i','o','u','A','E','I','O','U'] #Tanto mayúsculas como minúsculas
     consonantes = 0
     vocales = 0
@@ -22,4 +22,6 @@ def juego():
     else:
         print ("Ha ganado {jugador1}")
 
-        
+print("¿Con que palabra quieres jugar?")
+palabra_jugar=str(input()) #Creo la variable palabra para así jugar con ella
+juego(palabra_jugar) #La pongo en la función
