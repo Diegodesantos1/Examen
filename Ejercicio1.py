@@ -4,10 +4,10 @@ def juego(string):
     ListaVocales=['a','e','i','o','u','A','E','I','O','U'] #Tanto mayúsculas como minúsculas
     Consonantes = 0
     Vocales = 0
-    print("Escriba el nombre del jugador 1")
-    nombrejugador1=str(input())
-    print("Escriba el nombre del jugador 2")
-    nombrejugador2=str(input())
+    nombrejugador2= "Stuart"
+    nombrejugador1= "Kevin"
+    print(f"El nombre del jugador 1 es {nombrejugador1}")
+    print(f"El nombre del jugador 2 es {nombrejugador2}")
     jugador1= 0
     jugador2 = 0
 
