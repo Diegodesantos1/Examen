@@ -8,7 +8,6 @@ def juego(string):
     nombrejugador1= "Kevin"
     print(f"El nombre del jugador 1 es {nombrejugador1}")
     print(f"El nombre del jugador 2 es {nombrejugador2}")
-    print("Selecciona la palabra con la que jugar")
     numpalabras= len(string)
     for i, j in enumerate(string):
         if j in ListaVocales:
@@ -16,11 +15,11 @@ def juego(string):
         else:
             consonantes += numpalabras - i
     if vocales == consonantes:
-        print("Han empatado {nombrejugador1} y {nombrejugador2}")
+        print("Han empatado Stuart y Kevin")
     elif vocales < consonantes:
-        print("Ha ganado {nombrejugador1}")
+        print("Ha ganado Stuart")
     else:
-        print ("Ha ganado {nombrejugador2}")
+        print ("Ha ganado Kevin")
 
 print("¿Con que palabra quieres jugar?")
 palabra_jugar=str(input()) #Creo la variable palabra para así jugar con ella
