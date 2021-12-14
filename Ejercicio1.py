@@ -13,4 +13,7 @@ def juego():
     for i, j in enumerate(string):
         if j in ListaVocales:
             Vocales += numpalabras - i
+        else:
+            Consonantes += numpalabras - i
+
         
