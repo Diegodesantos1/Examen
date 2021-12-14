@@ -2,8 +2,8 @@
 
 def juego():
     ListaVocales=['a','e','i','o','u','A','E','I','O','U'] #Tanto mayúsculas como minúsculas
-    Consonantes = 0
-    Vocales = 0
+    consonantes = 0
+    vocales = 0
     nombrejugador2= "Stuart"
     nombrejugador1= "Kevin"
     print(f"El nombre del jugador 1 es {nombrejugador1}")
@@ -12,8 +12,14 @@ def juego():
     numpalabras= len(string)
     for i, j in enumerate(string):
         if j in ListaVocales:
-            Vocales += numpalabras - i
+            vocales += numpalabras - i
         else:
-            Consonantes += numpalabras - i
+            consonantes += numpalabras - i
+    if vocales == consonantes:
+        print("Han empatado {jugador1} y {jugador2}")
+    elif vocales < consonantes:
+        print("Ha ganado {jugador1}")
+    else:
+        print ("Ha ganado {jugador1}")
 
         
