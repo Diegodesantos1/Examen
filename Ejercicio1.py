@@ -1,14 +1,26 @@
-#Ejercicio del minion
+# Ejercicio del minion
+
 
 def juego(string):
-    ListaVocales=['a','e','i','o','u','A','E','I','O','U'] #Tanto mayúsculas como minúsculas
+    ListaVocales = [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u",
+        "A",
+        "E",
+        "I",
+        "O",
+        "U",
+    ]  # Tanto mayúsculas como minúsculas
     consonantes = 0
     vocales = 0
-    nombrejugador2= "Stuart"
-    nombrejugador1= "Kevin"
+    nombrejugador2 = "Stuart"
+    nombrejugador1 = "Kevin"
     print(f"El nombre del jugador 1 es {nombrejugador1}")
     print(f"El nombre del jugador 2 es {nombrejugador2}")
-    numpalabras= len(string)
+    numpalabras = len(string)
     for i, j in enumerate(string):
         if j in ListaVocales:
             vocales += numpalabras - i
@@ -21,6 +33,7 @@ def juego(string):
     else:
         print("Ha ganado Kevin con {} puntos".format(consonantes))
 
+
 print("¿Con que palabra quieres jugar?")
-palabra_jugar=str(input()) #Creo la variable palabra para así jugar con ella
-juego(palabra_jugar) #La pongo en la función
+palabra_jugar = str(input())  # Creo la variable palabra para así jugar con ella
+juego(palabra_jugar)  # La pongo en la función
