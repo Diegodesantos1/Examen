@@ -9,4 +9,5 @@ def juego():
     print(f"El nombre del jugador 1 es {nombrejugador1}")
     print(f"El nombre del jugador 2 es {nombrejugador2}")
     print("Selecciona la palabra con la que jugar")
-    palabra = str(input())
+    numpalabras= len(string)
+    for i, j in enumerate(string)
