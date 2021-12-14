@@ -16,3 +16,6 @@ else:
     print("Número NO válido,")
     print("De qué tamaño quieres el tablero")
     N = int(input())
+for i in range(T):
+    jugador1 = [int(input())-1 for i in range(N)] #Establezco el bucle para que se muevan las piezas en el rango del tamaño del tablero
+    jugador2 = [int(input())-1 for i in range(N)]
