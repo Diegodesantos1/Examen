@@ -13,7 +13,8 @@
 ***
 
 <h1 align="center">2.Código_ejercicio1</h1>
-```python
+
+``python
 # Ejercicio del minion
 
 
@@ -53,7 +54,7 @@ def juego(string):
 print("¿Con que palabra quieres jugar?")
 palabra_jugar = str(input())  # Creo la variable palabra para así jugar con ella
 juego(palabra_jugar)  # La pongo en la función
-```
+``
 ***
 <h1 align="center">2.Código_ejercicio2</h1>
 ```python
