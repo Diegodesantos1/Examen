@@ -58,7 +58,7 @@ juego(palabra_jugar)  # La pongo en la función
 
 ***
 <h1 align="center">2.Código_ejercicio2</h1>
-***
+
 
 ```python
 # Ejercicio de las torres
