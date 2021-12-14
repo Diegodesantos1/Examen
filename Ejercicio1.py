@@ -16,11 +16,11 @@ def juego(string):
         else:
             consonantes += numpalabras - i
     if vocales == consonantes:
-        print("Han empatado {jugador1} y {jugador2}")
+        print("Han empatado {nombrejugador1} y {nombrejugador2}")
     elif vocales < consonantes:
-        print("Ha ganado {jugador1}")
+        print("Ha ganado {nombrejugador1}")
     else:
-        print ("Ha ganado {jugador1}")
+        print ("Ha ganado {nombrejugador2}")
 
 print("¿Con que palabra quieres jugar?")
 palabra_jugar=str(input()) #Creo la variable palabra para así jugar con ella
